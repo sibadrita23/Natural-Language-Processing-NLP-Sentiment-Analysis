@@ -1,0 +1,22 @@
+sentiment-analysis/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   ├── 01_text_preprocessing.ipynb
+│   └── 02_model_training.ipynb
+├── src/
+│   ├── data/
+│   │   ├── preprocess_text.py
+│   ├── models/
+│   │   ├── train_model.py
+│   └── utils/
+│       ├── plot_metrics.py
+├── reports/
+│   ├── figures/
+│   └── final_report.md
+├── tests/
+│   └── test_preprocessing.py
+├── README.md
+├── requirements.txt
+└── .gitignore
